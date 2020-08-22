@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>question form</title>
+  </head>
+  <body>
+    <h3>Question List</h3>
+
+    <div>
+      <ul>
+        <% for (let i of question_List){ %>
+        <li>
+          <p><% i.question %></p>
+          <p><% i.reponse %></p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
